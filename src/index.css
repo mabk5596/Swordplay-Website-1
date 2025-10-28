@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Gaming Studio Theme - Black & Gold Primary */
+    --background: 0 0% 4%;
+    --foreground: 35 54% 95%;
+
+    --card: 0 0% 8%;
+    --card-foreground: 35 54% 95%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 35 54% 95%;
+
+    --primary: 35 54% 45%;
+    --primary-foreground: 0 0% 4%;
+
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 35 54% 95%;
+
+    --muted: 0 0% 15%;
+    --muted-foreground: 35 20% 65%;
+
+    --accent: 35 54% 35%;
+    --accent-foreground: 0 0% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 35 54% 95%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 35 54% 35%;
+
+    --radius: 0.5rem;
+
+    /* Team Theme Colors */
+    --team-leadership: 9, 94%, 61%;
+    --team-art: 270 100% 65%;
+    --team-dev: 200 100% 60%;
+    --team-sound: 28 29% 76%;
+    --team-production: 150 60% 50%;
+    --team-marketing: 17, 83%, 57%;
+    --team-animation: 259, 55%, 46%;
+
+    /* Gradients */
+    --gradient-gold: linear-gradient(135deg, lab(81.52% 9.39 82.89) 0%, hsl(35 54% 35%) 100%);
+    --gradient-hero: linear-gradient(180deg, hsl(0 0% 4%) 0%, hsl(0 0% 8%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 8%) 0%, hsl(0 0% 12%) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+} */
