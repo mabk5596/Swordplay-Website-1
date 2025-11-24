@@ -27,7 +27,7 @@ import NoraA from "@/assets/Team/Nora_Alrashid.jpg";
 import LK from "@/assets/Team/Leen_Khalil.jpg";
 import TK from "@/assets/Team/Tamer_Khalil.jpg";
 import AAH from "@/assets/Team/Abdullah_AlHabib.jpg";
-import AHZ from "@/assets/Team/AbdulHadi_Zubailah.jpg";
+import AHZ from "@/assets/Team/AbdulHadi_zubailah.jpg";
 import MAH from "@/assets/Team/Mohammed_Abdulhameed.jpg";
 
 export const teamDescriptions: Record<
