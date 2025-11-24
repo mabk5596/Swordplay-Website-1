@@ -15,10 +15,10 @@ import MB2130 from "@/assets/Mind_Break/MindBreak_Logo.png";
 import MB2130Feature1 from "@/assets/Mind_Break/MB2130-feature1.jpg";
 import MB2130Feature2 from "@/assets/Mind_Break/MB2130-feature2.jpg";
 import MB2130Feature3 from "@/assets/Mind_Break/MB2130-feature3.jpg";
-import nsx198xFeature1 from "@/assets/NSX198x/NSX198X-Feature1.jpg";
-import nsx198xFeature2 from "@/assets/NSX198x/NSX198X-Feature2.jpg";
-import nsx198xFeature3 from "@/assets/NSX198x/NSX198X-Feature3.jpg";
-import nsx198xFeature4 from "@/assets/NSX198x/NSX198X-Feature4.jpg";
+import nsx198xFeature1 from "@/assets/NSX198x/NSX198Xfeature1.jpg";
+import nsx198xFeature2 from "@/assets/NSX198x/NSX198Xfeature2.jpg";
+import nsx198xFeature3 from "@/assets/NSX198x/NSX198Xfeature3.jpg";
+import nsx198xFeature4 from "@/assets/NSX198x/NSX198Xfeature4.jpg";
 
 
 export const games: Game[] = [
