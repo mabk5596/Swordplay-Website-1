@@ -10,7 +10,7 @@ export interface TeamMember {
 import MT from "@/assets/Team/Mansour_Althenayan.jpg";
 import MH from "@/assets/Team/Moayad_hakeem.jpg";
 import AlexP from "@/assets/Team/AlexP.png";
-import Prof from "@/assets/Team/prof.jpg"; 
+import Prof from "@/assets/Team/Prof.jpg"; 
 import MG from "@/assets/Team/Marwan_ghamdi.png";
 import MS from "@/assets/Team/Md_Siran.jpg";
 import MajedG from "@/assets/Team/Majed_ghamdi.jpg";
